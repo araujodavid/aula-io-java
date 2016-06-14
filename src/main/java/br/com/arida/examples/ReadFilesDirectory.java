@@ -11,9 +11,9 @@ public class ReadFilesDirectory {
 	    		String caminho = diretorio.getPath();
 	    		File arquivo = new File(caminho + "/" + nomeDoArquivo);
 	    		if (arquivo.isFile()) {
-	    			System.out.print(arquivo.getName() + " - ");
+	    			System.out.print(arquivo.getName() + " > ");
 	    			long tamanhoEmMB = arquivo.length() / 1024;
-	    			System.out.println(tamanhoEmMB + "MB");
+	    			System.out.println(tamanhoEmMB + " MB");
 	    		}
 	    	}
 	    } else {
